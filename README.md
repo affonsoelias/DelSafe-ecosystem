@@ -13,11 +13,11 @@ Unlike the core compiler repository ([`affonsoelias/aether`](https://github.com/
   - [`registry/index.json`](registry/index.json) — SemVer-indexed metadata mapping short package names (`aetherc pkg search`, `aetherc pkg add`, `aetherc pkg publish`) to verified checksums and package sources.
 
 ### Planned Official & Co-Official Packages
-- **`aether-horse`**: High-speed adapter and middleware package for Horse (Free Pascal).
-- **`aether-mormot`**: Enterprise messaging and persistence integration for Synopse mORMot 2.
-- **`aether-sql`**: Unified database drivers (PostgreSQL, SQLite, MySQL) for Aether backends.
-- **`aether-jwt`**: Native JSON Web Token signing and verification library.
-- **`blaisevue-core`**: Shared modules and integration utilities for [BlaiseVue](https://github.com/affonsoelias/BlaiseVue).
+- **`aether-sql`**: Unified database drivers (SQLite, PostgreSQL, MySQL/MariaDB, Firebird) for Aether applications and backends.
+- **`aether-jwt`**: Native JSON Web Token signing, verification, and authentication helpers.
+- **`aether-http-client`**: Native HTTP/HTTPS client for consuming external APIs.
+- **`aether-dotenv`**: Lightweight `.env` configuration loader for servers and CLI tools.
+- **`aether-log`**: Structured logging utilities for Aether services and applications.
 
 ---
 
