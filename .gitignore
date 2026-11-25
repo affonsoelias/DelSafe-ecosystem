@@ -1,0 +1,16 @@
+# Build & toolchain artifacts
+bin/
+build/
+generated/
+.aether/
+*.exe
+*.o
+*.ppu
+*.a
+*.dcu
+*.lps
+*.bak
+*.zip
+*.tar.gz
+.DS_Store
+Thumbs.db
